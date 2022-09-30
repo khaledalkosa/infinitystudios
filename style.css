@@ -2585,7 +2585,7 @@ footer {
     text-align: center;
     border-radius: 5px;
     background-color: white;
-    scale: 0;
+    display: none;
     z-index: 151;
     box-shadow: 0px 0px 10px 0px black;
 }
@@ -2621,9 +2621,9 @@ footer {
     }
 }
 
-@media (max-width:350px) {
+@media (max-width:450px) {
     .app-popup-content span {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -2693,7 +2693,7 @@ footer {
     }
 }
 
-@media (max-width:350px) {
+@media (max-width:450px) {
     .app-popup-content p {
         font-size: 15px;
     }
@@ -2704,7 +2704,7 @@ footer {
 }
 
 .app-popup-active .app-popup-content {
-    scale: 1;
+    display: block;
 }
 
 .footer-app {
